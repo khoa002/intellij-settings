@@ -1,0 +1,11 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef690fc0-1422-4509-ad12-91dcb34d2e13" name="LESP Dev" url="http://local.lesupplypro.com/">
+        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant/Code/laravel53" accessType="SFTP">
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
