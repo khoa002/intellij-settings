@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="2fda7602-a2a8-4f82-aad0-2af33ab640ca" name="LESP Test" url="http://test.lesupplypro.com">
+        <fileTransfer host="test.lesupplypro.com" port="22" privateKey="$USER_HOME$/LESupplyProDev.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="ef690fc0-1422-4509-ad12-91dcb34d2e13" name="Homestead Machine" url="http://local.lesupplypro.com/">
         <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant/Code/lesp" accessType="SFTP">
           <option name="port" value="2222" />
