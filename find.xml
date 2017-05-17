@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>*.properties</mask>
@@ -22,6 +24,17 @@
       <mask>!*.json,!*.log,!*.</mask>
       <mask>!*.json,!*.log,!*.h</mask>
       <mask>!*.json,!*.log,!*.html</mask>
+      <mask>!*.json,!*.log,!*.html,~</mask>
+      <mask>!*.json,!*.log,!*.html,</mask>
+      <mask>!*.json,!*.log,!*.html,!</mask>
+      <mask>!*.json,!*.log,!*.html,!l</mask>
+      <mask>!*.json,!*.log,!*.html,!les</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/co</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/cov</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/cover</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage</mask>
     </recentFileMasks>
   </component>
 </application>
