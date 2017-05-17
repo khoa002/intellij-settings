@@ -7,24 +7,8 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*.json,!*.log,!*.html,!lesp/coverage" />
+    <option name="FILE_MASK" value="!*.json,!*.log,!*.html,!lesp/coverage,!storage/" />
     <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*.php</mask>
-      <mask>!*.html</mask>
-      <mask>!*.json,!*.log</mask>
-      <mask>!*.json,!*.log,</mask>
-      <mask>!*.json,!*.log,!</mask>
-      <mask>!*.json,!*.log,!*</mask>
-      <mask>!*.json,!*.log,!*.</mask>
       <mask>!*.json,!*.log,!*.h</mask>
       <mask>!*.json,!*.log,!*.html</mask>
       <mask>!*.json,!*.log,!*.html,~</mask>
@@ -38,6 +22,23 @@
       <mask>!*.json,!*.log,!*.html,!lesp/cov</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/cover</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,s</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!s</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!st</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!sto</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!stora</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage,~</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage,</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage,!</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage,!ve</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage,!vendor</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/,!vendor</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/,!vendor/</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/,</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/</mask>
     </recentFileMasks>
   </component>
 </application>
