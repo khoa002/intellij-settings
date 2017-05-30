@@ -14,6 +14,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="3bbc8730-e88c-498c-a105-f93e612b67df" name="LESP Prod" url="http://portal.lesupplypro.com">
+        <fileTransfer host="portal.lesupplypro.com" port="22" privateKey="$USER_HOME$/LESupplyProProd.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
