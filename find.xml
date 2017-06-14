@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../app/Http/Controllers/Admin/ProductCrudController.php - [lesp]'" />
-    <option name="defaultScopeName" value="File '.../app/Http/Controllers/Admin/ProductCrudController.php - [lesp]'" />
-    <option name="SEARCH_SCOPE" value="File '.../app/Http/Controllers/Admin/ProductCrudController.php - [lesp]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="!*.json,!*.log,!*.html,!lesp/coverage,!storage/" />
     <recentFileMasks>
       <mask>!*.json,!*.log,!*.h</mask>
