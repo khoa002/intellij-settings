@@ -5,13 +5,6 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="!*.json,!*.log,!*.html,!lesp/coverage" />
     <recentFileMasks>
-      <mask>!*.json,!*.log,!*.h</mask>
-      <mask>!*.json,!*.log,!*.html</mask>
-      <mask>!*.json,!*.log,!*.html,~</mask>
-      <mask>!*.json,!*.log,!*.html,</mask>
-      <mask>!*.json,!*.log,!*.html,!</mask>
-      <mask>!*.json,!*.log,!*.html,!l</mask>
-      <mask>!*.json,!*.log,!*.html,!les</mask>
       <mask>!*.json,!*.log,!*.html,!lesp</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/co</mask>
@@ -34,6 +27,13 @@
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/,!vendor/</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/,</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage/</mask>
+      <mask>*.php;!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>*.php,!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>*.php!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>*.ph!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>*.p!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>*.!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>*!*.json,!*.log,!*.html,!lesp/coverage</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage</mask>
     </recentFileMasks>
   </component>
