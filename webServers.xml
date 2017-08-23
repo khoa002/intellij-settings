@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="a8d5583c-7b3a-474f-af7f-1a487ab7bdad" name="NFDN2.4Prod1" url="http://ec2-54-213-175-197.us-west-2.compute.amazonaws.com">
-        <fileTransfer host="ec2-54-213-175-197.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/NFDNDevKey.pem" accessType="SFTP" keyPair="true">
+        <fileTransfer host="ec2-54-213-175-197.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/GearfireProd2017.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -31,7 +31,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="bfa1a8c2-2a28-4bd9-aac5-3727f741aaf9" name="NFDN2.4Prod2" url="http://ec2-54-200-198-227.us-west-2.compute.amazonaws.com">
-        <fileTransfer host="ec2-54-200-198-227.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/NFDNDevKey.pem" accessType="SFTP" keyPair="true">
+        <fileTransfer host="ec2-54-200-198-227.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/GearfireProd2017.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
