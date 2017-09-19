@@ -46,6 +46,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="b94946cb-966a-428e-9808-cadc1c6b2482" name="NFDNTest" url="http://ec2-52-42-184-139.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-42-184-139.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireDev2017.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
