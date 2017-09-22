@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="2fda7602-a2a8-4f82-aad0-2af33ab640ca" name="LESP Test" url="http://test.lesupplypro.com">
-        <fileTransfer host="test.lesupplypro.com" port="22" privateKey="$USER_HOME$/LESupplyProDev.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+        <fileTransfer host="test.lesupplypro.com" port="22" privateKey="$USER_HOME$/keys/LESupplyProDev.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -23,7 +23,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="3bbc8730-e88c-498c-a105-f93e612b67df" name="LESP Prod" url="http://portal.lesupplypro.com">
-        <fileTransfer host="portal.lesupplypro.com" port="22" privateKey="$USER_HOME$/LESupplyProProd.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+        <fileTransfer host="portal.lesupplypro.com" port="22" privateKey="$USER_HOME$/keys/LESupplyProProd.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
