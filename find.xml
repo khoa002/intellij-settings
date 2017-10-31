@@ -2,16 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>!*.json,!*.log,!*.html,!lesp</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/co</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/cov</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/cover</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/coverage,s</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/coverage,</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!s</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!st</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!sto</mask>
@@ -34,6 +28,14 @@
       <mask>*.!*.json,!*.log,!*.html,!lesp/coverage</mask>
       <mask>*!*.json,!*.log,!*.html,!lesp/coverage</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage!</mask>
+      <mask>!*.json,!*.log,!*.html,!lesp/coverage!*</mask>
+      <mask>!</mask>
+      <mask>!*</mask>
+      <mask>!*.</mask>
+      <mask>!*.c</mask>
+      <mask>!*.cs</mask>
+      <mask>!*.css</mask>
     </recentFileMasks>
   </component>
 </application>
