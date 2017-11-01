@@ -1,6 +1,62 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="8213e3d1-d8df-4177-9b1f-14f11844b3f6" name="GEARFIRE Test" url="http://ec2-34-208-104-200.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-34-208-104-200.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireDev2017.pem" rootFolder="/var/www/html/GEARFIRE" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0298a408-c7fe-4d5b-84e6-6754cbf5da2b" name="GEARFIRE Prod1" url="http://ec2-54-213-175-197.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-54-213-175-197.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" rootFolder="/var/www/html/GEARFIRE" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3fb405ea-1e8c-45dd-b124-8b8e6f25501a" name="GEARFIRE UAT" url="http://ec2-52-38-130-81.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-38-130-81.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireDev2017.pem" rootFolder="/var/www/html/GEARFIRE" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4697aa26-18fe-4a1c-b75b-47743d47aba3" name="GEARFIRE ProdBase" url="http://ec2-54-213-78-56.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-54-213-78-56.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" rootFolder="/var/www/html/GEARFIRE" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b046444a-fb41-4165-911d-703aab4123e4" name="Gearfire Dev (old)" url="http://ec2-54-200-65-85.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-54-200-65-85.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireDev2017.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b3458ebc-d421-45f3-a243-a261a60078c6" name="GEARFIRE Prod2" url="http://ec2-54-200-198-227.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-54-200-198-227.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" rootFolder="/var/www/html/GEARFIRE" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a25e0b08-606d-430c-8ac8-c93d501c7418" name="GEARFIRE ProdCrons" url="http://ec2-34-211-233-8.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-34-211-233-8.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="a8d5583c-7b3a-474f-af7f-1a487ab7bdad" name="NFDN2.4Prod1" url="http://ec2-34-208-216-231.us-west-2.compute.amazonaws.com">
         <fileTransfer host="ec2-34-208-216-231.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
