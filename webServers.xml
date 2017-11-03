@@ -110,6 +110,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="67f663f1-94dd-4036-90c6-eef27994088f" name="LESP" url="http://lesp.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
