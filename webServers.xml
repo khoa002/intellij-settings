@@ -113,6 +113,14 @@
       <webServer id="67f663f1-94dd-4036-90c6-eef27994088f" name="LESP" url="http://lesp.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="30658888-3907-4438-aba2-d720a4c8878f" name="EGOSS Prod 2.4" url="http://ec2-54-69-241-86.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-54-69-241-86.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
