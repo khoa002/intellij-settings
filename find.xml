@@ -5,9 +5,8 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!s</mask>
-      <mask>!*.json,!*.log,!*.html,!lesp/coverage,!st</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!sto</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!stora</mask>
       <mask>!*.json,!*.log,!*.html,!lesp/coverage,!storage</mask>
@@ -36,6 +35,8 @@
       <mask>!*.c</mask>
       <mask>!*.cs</mask>
       <mask>!*.css</mask>
+      <mask>*</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
