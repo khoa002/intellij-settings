@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="925afe1a-5f90-44e7-a5b0-303271e9e913" name="EGOSS Dev" url="http://ec2-52-43-52-10.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-43-52-10.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/NFDNDevKey.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="8213e3d1-d8df-4177-9b1f-14f11844b3f6" name="GEARFIRE Test" url="http://ec2-34-215-240-172.us-west-2.compute.amazonaws.com">
         <fileTransfer host="ec2-34-215-240-172.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireDev2017.pem" rootFolder="/var/www/html/GEARFIRE" accessType="SFTP" keyPair="true">
           <advancedOptions>
