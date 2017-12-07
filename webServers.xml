@@ -129,6 +129,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="282b9c3d-1739-43db-a74d-9f188fe85e8c" name="GEARFIRE Search Prod1" url="http://ec2-52-32-70-82.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-32-70-82.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/keys/GearfireProd2017.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
