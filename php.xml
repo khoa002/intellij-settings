@@ -1,11 +1,4 @@
 <application>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="vagrant:///Users/knguyen/Code/nfdn_site/usr/bin/php" id="5553ecee-4400-4747-af50-c5351bfa9cc0" name="Scotch Box Vagrant" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/Code/nfdn_site" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Scotch Box Vagrant">
