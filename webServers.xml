@@ -137,6 +137,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="7c8225f5-8c3f-48e8-89be-5952686cbccf" name="IWFC Staging" url="http://35.160.238.56">
+        <fileTransfer host="35.160.238.56" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
