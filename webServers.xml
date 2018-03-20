@@ -145,8 +145,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="cb113834-35b3-4372-b486-1c284ea19824" name="AWS - FFXITestServer" url="http://34.217.87.118">
-        <fileTransfer host="34.217.87.118" port="22" privateKey="$USER_HOME$/Dev/aws/keys/khoa-keypair1.pem" accessType="SFTP" keyPair="true">
+      <webServer id="cb113834-35b3-4372-b486-1c284ea19824" name="AWS - FFXITestServer" url="http://54.202.121.11">
+        <fileTransfer host="54.202.121.11" port="22" privateKey="$USER_HOME$/Dev/aws/keys/khoa-keypair1.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
